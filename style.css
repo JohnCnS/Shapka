@@ -3,6 +3,29 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.top-left {
+ position: absolute;
+ left: 0;
+ top: 0;   
+ z-index: -1;
+}
+.top-right {
+    position: absolute;
+    left: 1100px;
+    top: 8px;
+}
+.left {
+    position: absolute;
+    left: 9.28px;
+    top: 420px;
+    z-index: -1;
+}
+.top {
+    position: absolute;
+    z-index: -1;
+    left: 450px;
+    top: 0px;
+}
 .flex {
     display: flex;
 }
